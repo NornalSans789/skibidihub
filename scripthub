@@ -1,0 +1,143 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Skibidi Toilet Script", HidePremium = false, SaveConfig = true, ConfigFolder = "skibitoil", IntroText = "Skibidi Hub"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Main"
+})
+
+Tab:AddButton({
+	Name = "Fly Gui",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+      		print("Active!")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fe Perm ShiftLock",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/ShiftLockx/main/Shiftlock-MiniNoobie",true))()
+      		print("Active!")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Inf Field",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+      		print("Active!")
+  	end    
+})
+
+Tab:AddSlider({
+	Name = "WalkSpeed",
+	Min = 16,
+	Max = 1000,
+	Default = 16,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 2,
+	ValueName = "Speed",
+	Callback = function(ValueName)
+		print(ValueName)
+	end    
+})
+
+
+Tab:AddButton({
+	Name = "Keyboard",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+      		print("Active!")
+  	end    
+})
+
+local Tab1 = Window:MakeTab({
+	Name = "Script",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section1 = Tab1:AddSection({
+	Name = "Script Hub"
+})
+
+Tab1:AddButton({
+	Name = "Blade Ball",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/nqxlOfc/Loaders/main/Blade_Ball.lua'))()
+      		print("Active!")
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Fe Speed Gui",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/xM6WDXLF')))()
+      		print("Active!")
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Fe Teleport Gui",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/qQyCVjmd`)))()
+      		print("Active!")
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Fe Kick Gui",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/B0gRJ2RS')))()
+      		print("Active!")
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Fe AntiFall (All Obby)",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/AntiFall/main/Script"))()
+      		print("Active!")
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Fe Death Note Gui",
+	Callback = function()
+loadstring(game:HttpGet(('h'..'t'..'t'..'p'..'s'..':'..'/'..'/'..'p'..'a'..'s'..'t'..'e'..'f'..'y'..'.'..'a'..'pp'..'/'..'G'..'o'..'K'..'x'..'Y'..'B'..'k'..'U'..'/'..'r'..'a'..'w'), true))()
+      		print("Active!")
+  	end    
+})
+
+
+Tab1:AddButton({
+	Name = "Fe Noclip Gui",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/B5xRxTnk",true))()
+      		print("Active!")
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Super Fling Gui",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+      		print("Active!")
+  	end    
+})
+
+OrionLib:MakeNotification({
+	Name = "Skibidi Toilet!!!!",
+	Content = "Brrrrr skibidi dop dop yes yes skibidi dop dip dip",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+OrionLib:Init()
