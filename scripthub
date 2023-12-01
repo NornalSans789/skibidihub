@@ -68,7 +68,7 @@ Tab:AddTextbox({
 })
 
 Tab:AddTextbox({
-	Name = "Gravity (Default = 10)",
+	Name = "Gravity (Default = 155)",
 	Default = "",
 	TextDisappear = true,
 	Callback = function(a)
